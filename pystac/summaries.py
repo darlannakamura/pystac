@@ -12,12 +12,13 @@ from typing import (
     Generic,
     List,
     Optional,
-    Protocol,
     Union,
     TypeVar,
     Iterable,
     TYPE_CHECKING,
 )
+
+from typing_extensions import Protocol
 
 if TYPE_CHECKING:
     from pystac.item import Item as Item_Type
